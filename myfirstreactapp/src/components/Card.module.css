@@ -1,0 +1,8 @@
+.cardContainer {
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.cardImg {
+  width: 150px;
+}

@@ -7,8 +7,10 @@ createRoot(document.getElementById("root")).render(
   // <StrictMode>
   <>
     <App />
-    <App />
+    {/* <App /> */}
   </>
 );
+
+// Props => Properties => Arguments => Parent to Child
 
 // JSX => JavaScript Extension => HTML + JS
