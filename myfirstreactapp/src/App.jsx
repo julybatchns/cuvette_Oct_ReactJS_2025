@@ -1,38 +1,37 @@
-/* eslint-disable react/jsx-key */
-/* eslint-disable react/prop-types */
 // import Govind from "./RenderNumberList";
-import { useState } from "react";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 // import ConditionalRender from "./components/ConditionalRender";
 // import { Notification } from "./components/Notification";
 // import { UserGreeting } from "./components/Notification";
 // import RenderList from "./components/RenderList";
 // import { ObjectList } from "./components/ObjectList";
-import ReactProps from "./ReactProps";
+// import ReactProps from "./ReactProps";
+import State from "./components/State";
 
 function App() {
-  const [childMessage, setChildMessage] = useState("");
+  // const [childMessage, setChildMessage] = useState("");
   // const name = "Govind!";
   // function add(a, b) {
   //   return a + b;
   // }
-  const array1 = [2, 4, 6, 8, 10];
+  // const array1 = [2, 4, 6, 8, 10];
   // const user = { name: "Cuvette", domain: "EdTech" };
   // const user = null;
   // const message = "Hello from Parent!";
-  const handleChildMessage = (message) => {
-    setChildMessage(message);
-  };
+  // const handleChildMessage = (message) => {
+  //   setChildMessage(message);
+  // };
 
   return (
     <>
-      <h1>Parent App Component</h1>
-      <h1>{childMessage}</h1>
-      <ReactProps sendMessage={handleChildMessage} />
+      <State />
+      {/* <h1>Parent App Component</h1> */}
+      {/* <h1>{childMessage}</h1> */}
+      {/* <ReactProps sendMessage={handleChildMessage} /> */}
       {/* <Card /> */}
-      {array1.map((item, index) => {
+      {/* {array1.map((item, index) => {
         return <Card key={index} item={item} />;
-      })}
+      })} */}
       {/* <ObjectList /> */}
       {/* <ReactProps message={message} /> */}
       {/* <RenderList /> */}
