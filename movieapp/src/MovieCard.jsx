@@ -2,11 +2,11 @@
 /* eslint-disable no-unused-vars */
 const MovieCard = (props) => {
   const {
-    movie: { imdbID, Year, Poster, Title, Type },
+    movie: { Year, Poster, Title, Type },
   } = props;
   return (
     <>
-      <div className="movie" key={imdbID}>
+      <div className="movie">
         <div>
           <p>{Year}</p>
         </div>
